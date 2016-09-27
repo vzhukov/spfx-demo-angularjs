@@ -1,0 +1,21 @@
+<div ng-controller="StuffController">
+  <div style="margin-bottom: 15px;">
+      <input type="text" placeholder="Search" ng-model="searchPattern" />
+  </div>
+  <div>
+    <div ng-repeat="employee in stuff | filter:searchPattern"
+    style="margin-bottom:20px; width:30%; float: left;">
+      <uif-persona uif-style="round" uif-size="large"
+      uif-presence="{{employee.h4jt}}" uif-image-url="{{employee.ProfileImage.Url}}">
+          <uif-persona-primary-text>{{employee.Title}}</uif-persona-primary-text>
+          <uif-persona-secondary-text>{{employee.Position}}</uif-persona-secondary-text>
+          <uif-persona-tertiary-text>{{employee.Birthdate | date: "dd MMM"}}</uif-persona-tertiary-text>
+          <uif-persona-optional-text>{{employee.Gender}}</uif-persona-optional-text>
+        </uif-persona>
+    </div>
+  </div>
+</div>
+<style>
+  .ms-Persona-details{padding-left:10px !important;}
+</style>
+

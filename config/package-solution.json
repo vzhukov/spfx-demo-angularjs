@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "stuff-web-part-client-side-solution",
+    "id": "c1295bdf-b6f2-4397-8e24-b3aed904bb43",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/stuff-web-part.spapp"
+  }
+}

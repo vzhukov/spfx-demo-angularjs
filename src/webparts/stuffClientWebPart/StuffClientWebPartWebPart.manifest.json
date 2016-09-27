@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "4b4922d4-e01e-4511-8c55-566760cd42d7",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "4b4922d4-e01e-4511-8c55-566760cd42d7",
+    "group": { "default": "Under Development" },
+    "title": { "default": "StuffClientWebPart" },
+    "description": { "default": " " },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "StuffClientWebPart"
+    }
+  }]
+}

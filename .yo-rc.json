@@ -1,0 +1,7 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "stuff-web-part",
+    "libraryId": "c1295bdf-b6f2-4397-8e24-b3aed904bb43",
+    "framework": "none"
+  }
+}
